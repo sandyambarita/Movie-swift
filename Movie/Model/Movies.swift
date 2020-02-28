@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Movies: Decodable {
+struct Movies: Codable {
     let results: [MoviesData]?
 }
 
-struct MoviesData: Decodable {
+struct MoviesData: Codable {
     let id: Int?
     let posterPath: String?
     let title: String?
@@ -27,11 +27,11 @@ struct MoviesData: Decodable {
     }
 }
 
-struct MovieReview: Decodable {
+struct MovieReview: Codable {
     let results: [MovieReviewData]?
 }
 
-struct MovieReviewData: Decodable {
+struct MovieReviewData: Codable {
     let id: String?
     let author: String?
     let content: String?

@@ -13,7 +13,6 @@ class MovieDetailViewModel {
     var movieReview: [MovieReviewData] = []
     var apimanager = APIManager()
     var idMovie: Int?
-    var favorite = [FavoriteData]()
     var isFavorite: Bool? = false
     var defaults = UserDefaults.standard
     var isAccessApiMovieDetail = false
