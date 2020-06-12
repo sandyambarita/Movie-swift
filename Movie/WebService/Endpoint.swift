@@ -18,4 +18,5 @@ open class Endpoint {
     static let MOVIE_DETAIL = "/movie/"
     static let MOVIE_REVIEW = "/reviews"
     
+    
 }
